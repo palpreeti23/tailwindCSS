@@ -9,15 +9,44 @@
 </head>
 
 <body class="bg-black text-white">
+    <!-- nav bar -->
     <nav>
-        <div class="flex place-content-between px-4 w-full h-7 rounded bg-violet-300">
+        <div class="flex place-content-between px-4 w-full h-10 rounded bg-violet-200 text-center pt-1.5">
             <div class="text-blue-500 font-bold text-xl">PW Skills</div>
-            <li>home</li>
-            <li> about us</li>
-            <li> contact us</li>
-            <div class="bg-blue-500 rounded-xl px-1">login/signup</div>
+            <div class="md:flex list-none hidden">
+                <li class="text-black px-4 cursor-pointer"> home</li>
+                <li class="text-black px-4 cursor-pointer"> about us</li>
+                <li class="text-black px-4 cursor-pointer"> contact us</li>
+            </div>
+
+            <div class="bg-blue-500 rounded px-1 h-7 md:block hidden cursor-pointer">login/signup </div>
+            <div class="text-black text-2xl sm:hidden"> <a href="#">&#8801</a></div>
         </div>
     </nav>
+
+    <!-- end of nav  -->
+
+    <!-- main section -->
+    <header>
+        <div class="w-full h-auto">
+            <img class="w-full hidden md:block"
+                src="https://www.shutterstock.com/image-vector/skill-levels-knob-button-increasing-600nw-1484062181.jpg"
+                alt="">
+        </div>
+        <div class=" w-full h-auto">
+            <img class="w-full block md:hidden"
+                src="https://s3-media0.fl.yelpcdn.com/bphoto/I3sROzdA2Ttk0b01Kw5EUw/1000s.jpg" alt="">
+        </div>
+    </header>
+    <!-- main section ends here -->
+
+    <!-- student section  -->
+    <div>
+        <div class="flex flex-wrap flex-col items-center p-4">
+            <p class="text-center text-indigo-500 font-bold text-2xl">"Pure Hardwork, No Shortcuts!"</p>
+            <div class="border-b-4 text-yellow-500 w-38 rounded-2xl "></div>
+        </div>
+    </div>
 
 </body>
 
